@@ -6,7 +6,7 @@ A simple game web service. Written in PHP.
 
 ## Purpose
 - สร้างสำหรับใช้เป็นตัวอย่างอย่างง่ายสำหรับเป็น web service ให้กับ game
-- Project ที่ใช้ web service เป็น web service
+- Project ที่ใช้โปรเจคนี้เป็น web service
   - [CocosCreator-LearnNetwork](https://github.com/bnitelf/CocosCreator-LearnNetwork)
 
 ## Prerequisite (for see sample)
@@ -16,7 +16,7 @@ A simple game web service. Written in PHP.
 ## How to use
 1. Downlaod as zip.
 1. แตกไฟล์ Right click -> Extract here
-1. เป็นชื่อ folder "GameWebService-master" -> "GameWebService"
+1. เปลี่ยนชื่อ folder "GameWebService-master" -> "GameWebService"
 1. ย้าย folder ไปไว้ใน {your_xampp_instaled_directory}/htdocs/
 1. เอา GameWebService/database/script/CreateDatabase.sql ไป run ใน phpMyAdmin เพื่อสร้าง database
 1. ลอง test db connection ได้โดยพิมพ์ http://localhost/gamewebservice/database/testconnection.php ที่ browser ต้องขึ้นว่า "Connect to database successful."
