@@ -1,0 +1,177 @@
+{
+	"variables": [],
+	"info": {
+		"name": "MyGameWebService",
+		"_postman_id": "bf0ae8ca-14d7-1f55-79c1-d8eeb2031409",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/gamewebservice/player.php?action=update",
+			"request": {
+				"url": {
+					"raw": "http://localhost/gamewebservice/player.php?action=create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gamewebservice",
+						"player.php"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "create ",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "player_name",
+							"value": "Nut Wigi",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/gamewebservice/player.php?action=get&player_id=1 ",
+			"request": {
+				"url": {
+					"raw": "http://localhost/gamewebservice/player.php?action=get&player_id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gamewebservice",
+						"player.php"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "get",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "player_id",
+							"value": "1 ",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "player_name",
+							"value": "Nut Wigi",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/gamewebservice/player.php?action=create ",
+			"request": {
+				"url": {
+					"raw": "http://localhost/gamewebservice/player.php?action=create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gamewebservice",
+						"player.php"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "create ",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "player_name",
+							"value": "Nut Wigi 555",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/gamewebservice/player.php?action=delete",
+			"request": {
+				"url": {
+					"raw": "http://localhost/gamewebservice/player.php?action=delete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gamewebservice",
+						"player.php"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "delete",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "player_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

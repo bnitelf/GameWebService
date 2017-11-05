@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Game Web Service</title>
+</head>
+
+<body>
+    <h1>My Game Web Service</h1>
+
+    <h2>Usage</h2>
+    <hr>
+    <p>
+        Create player. <br>
+        <b>POST</b> /player.php?action=create <br>
+        <b>Body params.</b><br>
+        <ul>
+            <li>player_name</li>
+        </ul>
+    </p>
+    <hr>
+    <p>
+        Delete player. <br>
+        <b>POST</b> /player.php?action=delete <br>
+        <b>Body params.</b><br>
+        <ul>
+            <li>player_id</li>
+        </ul>
+    </p>
+    <hr>
+    <p>
+        Get player. <br>
+        <b>GET</b> /player.php?action=get&player_id={id} <br>
+        <b>Return json object.</b><br>
+        <ul>
+            <li>player_id</li>
+            <li>player_name</li>
+            <li>gold</li>
+            <li>level</li>
+        </ul>
+    </p>
+    <hr>
+    <p>
+        Update player. <br>
+        <b>POST</b> /player.php?action=update <br>
+        <b>Body params.</b><br>
+        <ul>
+            <li>player_id</li>
+            <li>player_name</li>
+            <li>gold</li>
+            <li>level</li>
+        </ul>
+    </p>
+</body>
+
+</html> 
